@@ -1,4 +1,4 @@
-## Modeling High-Frequency Limit Order Book Dynamics Using Machine Learning 
+# HFT-ML-Strategy
 
 * Framework to capture the dynamics of high-frequency limit order books.
 
