@@ -1,18 +1,18 @@
 # HFT-ML-Strategy
 
-* Framework to capture the dynamics of high-frequency limit order books.
+Replicate well-designed high frequency trading (HFT) strategies built using machine learning and deep learning techniques. Extract trading signals from multi-level orderbook data. In this project, 3-level orderbook signals were used. 
 
+- Orderbook data: SGX FTSE CHINA A50 INDEX Futures (新加坡交易所FTSE中国A50指数期货)
+
+The training pipline can be described as follows:
   <img src="./Graph/pipline.png" width="650">
   
-#### Overview
-
-In this project I used machine learning methods to capture the high-frequency limit order book dynamics and simple trading strategy to get the P&L outcomes.
 
 * Feature Extractor
 
   * Rise Ratio
   
-    <img src="./Graph/Price_B1A1.png" width="650">
+    <img src="./images/bid1ask1.png" width="650">
 
   * Depth Ratio
   
@@ -30,7 +30,7 @@ In this project I used machine learning methods to capture the high-frequency li
   
 *  Use best model to predict next 10 seconds
 
-   <img src="./Graph/CV_Best_Model.png" width="650">
+   <img src="./images/CV_result.png" width="650">
    
 *  Prediction outcome
 
@@ -38,7 +38,7 @@ In this project I used machine learning methods to capture the high-frequency li
    
 *  Profit & Loss
 
-   <img src="./Graph/P_L.png" width="650">
+   <img src="./images/best_CV_result_all.png" width="650">
    
    [Note] : [Model_Selection] (Model_Selection) 
 
