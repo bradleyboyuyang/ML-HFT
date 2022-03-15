@@ -22,9 +22,8 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
 
 <img src="./images/depth_0915_1130.png" width="800">
 <img src="./images/depth_1300_1600.png" width="800">
-    
 - Weighted average depth ratio, OBI, and rise ratio:
-    
+
 <img src="./images/rise_1300_1600_w.png" width="800">
  
  #### Model Fitting
