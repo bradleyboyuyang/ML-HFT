@@ -4,7 +4,7 @@ Replicate well-designed high frequency trading (HFT) strategies built using mach
 
 - Orderbook data: SGX FTSE CHINA A50 INDEX Futures (新加坡交易所FTSE中国A50指数期货)
 
-The training pipline can be described as follows:
+- The training pipline can be described as follows:
   <img src="./Graph/pipline.png" width="650">
   
 
