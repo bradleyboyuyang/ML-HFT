@@ -40,9 +40,16 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
 
 <img src="./images/prediction.png" width="800">
 
-- Cross Validation Results:
+- Prediction Accuracy Series:
+<img src="./images/single_day_accuracy.png" width="800">
+
+- Cross Validation Mean Accuracy:
+- 
 <img src="./images/CV_result.png" width="800">
 
+- Best Model:
+
+<img src="./images/best_CV_result.png" width="800">
 
    
 #### PnL Visualization
