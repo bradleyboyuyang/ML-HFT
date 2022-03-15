@@ -9,6 +9,7 @@ Target: Replicate well-designed high frequency trading (HFT) strategies using ma
   <img src="./Graph/pipline.png" width="650">
   
 - Best Bid and Ask Series:
+
   <img src="./images/best_bid_ask.png" width="750">
 
 * Feature Engineering
