@@ -1,11 +1,12 @@
 # HFT-ML-Strategy
 
-Replicate well-designed high frequency trading (HFT) strategies built using machine learning and deep learning techniques. Extract trading signals from multi-level orderbook data.
+Target: Replicate well-designed high frequency trading (HFT) strategies using machine learning and deep learning techniques. Extract trading signals from multi-level orderbook data.
 
-- Orderbook data: SGX FTSE CHINA A50 INDEX Futures (新加坡交易所FTSE中国A50指数期货) tick depth data
+- Futures data: SGX FTSE CHINA A50 INDEX Futures (新加坡交易所FTSE中国A50指数期货) tick depth data
 
 - The training pipline:
-<img src="./Graph/pipline.png" width="650">
+
+  <img src="./Graph/pipline.png" width="650">
   
 
 * Feature Extractor
