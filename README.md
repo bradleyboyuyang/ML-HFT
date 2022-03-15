@@ -15,7 +15,7 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
   
 #### Price Series
 
-<img src="./images/best_bid_ask.png" width="750">
+<img src="./images/best_bid_ask.png" width="800">
 
 #### Feature Engineering & HFT Factors Design
 - Simple average depth ratio and OBI:
@@ -28,13 +28,18 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
 <img src="./images/rise_1300_1600_w.png" width="800">
  
  #### Model Fitting
-- Models
+- Models:
   *  RandomForestClassifier
   *  ExtraTreesClassifier
   *  AdaBoostClassifier
   *  GradientBoostingClassifier
   *  Support Vector Machines
   *  Other classifiers: Multilayer Perceptrons, Softmax, KNN, etc.
+
+- Hyperparameters:
+  * Training window: 30min
+  * Test window: 10sec
+  * Prediction label: 15min forward
    
 #### Performance Metrics
 - Prediction accuracy:
