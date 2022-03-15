@@ -2,22 +2,22 @@
 
 Target: Replicate well-designed high frequency trading (HFT) strategies using machine learning and deep learning techniques. Extract trading signals from multi-level orderbook data.
 
-#### Data
+### Data
 The SGX FTSE CHINA A50 INDEX Futures (新加坡交易所FTSE中国A50指数期货) tick depth data are used.
 
-#### Strategy Pipline
+### Strategy Pipline
 <img src="./Graph/pipline.png" width="650">
   
-#### Orderbook Signals
+### Orderbook Signals
 We use level-3 deep orderbook data to develop trading signals, including **Depth Ratio**, **Rise Ratio**, and **Orderbook Imbalance (OBI)**.
 
 <img src="./Graph/depth.png" width="650"> 
   
-#### Price Series
+### Price Series
 
 <img src="./images/best_bid_ask.png" width="750">
 
-#### Feature Engineering & HFT Factors Design
+### Feature Engineering & HFT Factors Design
 - Simple average depth ratio and OBI:
 
 <img src="./images/depth_0915_1130.png" width="750">
@@ -27,7 +27,7 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
 
 <img src="./images/rise_1300_1600_w.png" width="750">
  
- #### Model Fitting
+ ### Model Fitting
 - Models:
   *  RandomForestClassifier
   *  ExtraTreesClassifier
@@ -41,7 +41,7 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
   * Test window: 10sec
   * Prediction label: 15min forward
    
-#### Performance Metrics
+### Performance Metrics
 - Prediction accuracy:
 
 <img src="./images/prediction.png" width="750">
@@ -58,7 +58,7 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
 <img src="./images/best_CV_result.png" width="800">
 
    
-#### PnL Visualization
+### PnL Visualization
 <img src="./images/best_CV_result_all.png" width="800">
     
 
