@@ -9,7 +9,7 @@ Target: Replicate well-designed high frequency trading (HFT) strategies using ma
   <img src="./Graph/pipline.png" width="650">
   
 - Best Bid and Ask Series:
-  <img src="./images/best_bid_ask.png" width="650">
+  <img src="./images/best_bid_ask.png" width="750">
 
 * Feature Engineering
 
@@ -25,8 +25,6 @@ Target: Replicate well-designed high frequency trading (HFT) strategies using ma
   * Weighted OBI, Depth, and Rise
     
     <img src="./images/rise_1300_1600_w.png" width="650">
-    
-    [Note] : [Feature_Selection] (Feature_Selection) 
  
 * Learning Model Trainer
   
@@ -47,8 +45,7 @@ Target: Replicate well-designed high frequency trading (HFT) strategies using ma
 *  Profit & Loss
 
    <img src="./images/best_CV_result_all.png" width="650">
-   
-   [Note] : [Model_Selection] (Model_Selection) 
+    
 
  
 
