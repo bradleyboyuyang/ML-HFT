@@ -3,7 +3,7 @@
 Target: Replicate well-designed high frequency trading (HFT) strategies using machine learning and deep learning techniques. Extract trading signals from multi-level orderbook data.
 
 #### Data
-SGX FTSE CHINA A50 INDEX Futures (新加坡交易所FTSE中国A50指数期货) tick depth data
+The SGX FTSE CHINA A50 INDEX Futures (新加坡交易所FTSE中国A50指数期货) tick depth data are used.
 
 #### Strategy Pipline
 <img src="./Graph/pipline.png" width="650">
