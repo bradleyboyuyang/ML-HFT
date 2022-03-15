@@ -38,13 +38,15 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
 #### Performance Metrics
 - Prediction accuracy:
 
-<img src="./images/prediction.png" width="650">
+<img src="./images/prediction.png" width="800">
+
+- Cross Validation Results:
 <img src="./images/CV_result.png" width="800">
 
 
    
 #### PnL Visualization
-<img src="./images/best_CV_result_all.png" width="650">
+<img src="./images/best_CV_result_all.png" width="800">
     
 
  
