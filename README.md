@@ -43,7 +43,7 @@ Target: Replicate well-designed high frequency trading (HFT) strategies using ma
    
 *  Prediction outcome
 
-   <img src="./Graph/prediction.png" width="650">
+   <img src="./images/prediction.png" width="650">
    
 *  Profit & Loss
 
