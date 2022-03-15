@@ -10,7 +10,8 @@ SGX FTSE CHINA A50 INDEX Futures (新加坡交易所FTSE中国A50指数期货) t
   
 #### Orderbook Signals
 We use level-3 deep orderbook data to develop trading signals, including **Depth Ratio**, **Rise Ratio**, and **Orderbook Imbalance (OBI)**.
-<img src="./Graph/depth.png" width="650"> 
+
+<img src="./Graph/depth.png" width="600"> 
   
 #### Price Series
 <img src="./images/best_bid_ask.png" width="750">
@@ -36,6 +37,7 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
    
 #### Performance Metrics
 - Prediction accuracy:
+
 <img src="./images/prediction.png" width="650">
 <img src="./images/CV_result.png" width="800">
 
