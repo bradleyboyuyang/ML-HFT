@@ -34,7 +34,7 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
   *  AdaBoostClassifier
   *  GradientBoostingClassifier
   *  Support Vector Machines
-  *  Other classifiers: Multilayer Perceptrons, Softmax, KNN, etc.
+  *  Other classifiers: Softmax, KNN, MLP, LSTM, etc.
 
 - Hyperparameters:
   * Training window: 30min
