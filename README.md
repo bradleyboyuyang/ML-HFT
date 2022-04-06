@@ -17,14 +17,18 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
 
 <img src="./Graph/depth.png" width="650"> 
   
-However, there are tons of derivatives of potential signals if we have both the trade and quote data, such as:
+However, there are tons of potential signals if we have both the trade and quote data, such as:
 - volume imbalance signal
 - trade imbalance signal
 - technical indicators of bid and ask series (RSI, MACD...)
-- different weights on different level of orderbook data
 - WAP/WPR, weighted average price
 - volume imbalance signal
 - .....
+
+These signals can also generate derivative version using techniques such as:
+- consider different weights on different level of orderbook data for a particular signal
+- consider moving average with period n (hyperparameter)
+- consider weighted average of signals, such as weighted average of trade imbalance and orderbook imbalance
 
 **There are tons of excellent features to be explored with trade data and depth ordebook data. In the optiver volatility competition, the training data includes both trade and quote/orderbook, and it contains level-2 data. Many insightful feature engineering techniques can be discovered from the top solutions, which can also be applied in this framework.**
   
