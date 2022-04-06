@@ -1,6 +1,6 @@
 # HFT-ML-Strategy
 
-In this project, we provide a framework/pipline for high frequency trading using machine/deep learning techniques. More advanced feature engineering (with depth trade and quote data) and models (CNN, LSTM, LightGBM, Attention, AE, TabNet, GNN, or pre-trained models) can be applied in this framework.
+In this project, we provide a framework/pipline for high frequency trading using machine/deep learning techniques. More advanced feature engineering (with depth trade and quote data) and models (such as pre-trained models) can be applied in this framework.
 
 ### Target
 - Extract trading signals from multi-level orderbook data
