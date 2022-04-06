@@ -17,21 +17,6 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
 
 <img src="./Graph/depth.png" width="650"> 
   
-However, there are tons of potential signals if we have both the trade and quote data, such as:
-- volume imbalance signal
-- trade imbalance signal
-- technical indicators of bid and ask series (RSI, MACD...)
-- WAP/WPR, weighted average price
-- volume imbalance signal
-- .....
-
-These signals can also generate derivative version using techniques such as:
-- consider different weights on different level of orderbook data for a particular signal
-- consider moving average with period n (hyperparameter)
-- consider weighted average of signals, such as weighted average of trade imbalance and orderbook imbalance
-
-**There are tons of excellent features to be explored with trade data and depth ordebook data. In the optiver volatility competition, the training data includes both trade and quote/orderbook, and it contains level-2 data. Many insightful feature engineering techniques can be discovered from the top solutions, which can also be applied in this framework.**
-  
 ### Price Series
 
 <img src="./images/best_bid_ask.png" width="750">
@@ -80,6 +65,35 @@ These signals can also generate derivative version using techniques such as:
 ### PnL Visualization
 <img src="./images/best_CV_result_all.png" width="800">
     
+### Improvements
 
+Feature Engineering
+There are tons of potential powerful signals if we have both the trade and quote data, such as:
+- volume imbalance signal
+- trade imbalance signal
+- technical indicators of bid and ask series (RSI, MACD...)
+- WAP/WPR, weighted average price
+- volume imbalance signal
+- .....
+
+These signals can also generate derivative version using techniques such as:
+- consider different weights on different level of orderbook data for a particular signal
+- consider moving average with period n (hyperparameter)
+- consider weighted average of signals, such as weighted average of trade imbalance and orderbook imbalance
+- .....
+
+**In conclusion, there are tons of excellent features to be explored with trade data and depth ordebook data. In the optiver volatility competition, the training data includes both trade and quote/orderbook, and it contains level-2 data. Many insightful feature engineering techniques can be discovered from the top solutions, which can also be applied in this framework.**
  
+Models
+More advanced classifiers are definitely welcomed! Include but not limit to:
+- CNN
+- GRU/LSTM
+- XGBoost, AdaBoost, GBDT, LightGBM
+- Attention, Auto-encoder
+- TabNet
+- GNN
+- Pre-trained models
+- .....
+
+
 
