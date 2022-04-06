@@ -67,7 +67,8 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
     
 ### Improvements
 
-Feature Engineering
+**Feature Engineering**
+
 There are tons of potential powerful signals if we have both the trade and quote data, such as:
 - volume imbalance signal
 - trade imbalance signal
@@ -81,10 +82,9 @@ These signals can also generate derivative version using techniques such as:
 - consider moving average with period n (hyperparameter)
 - consider weighted average of signals, such as weighted average of trade imbalance and orderbook imbalance
 - .....
-
-**In conclusion, there are tons of excellent features to be explored with trade data and depth ordebook data. In the optiver volatility competition, the training data includes both trade and quote/orderbook, and it contains level-2 data. Many insightful feature engineering techniques can be discovered from the top solutions, which can also be applied in this framework.**
  
-Models
+**Models**
+
 More advanced classifiers are definitely welcomed! Include but not limit to:
 - CNN
 - GRU/LSTM
@@ -95,5 +95,5 @@ More advanced classifiers are definitely welcomed! Include but not limit to:
 - Pre-trained models
 - .....
 
-
+**In conclusion, there are tons of excellent features to be explored with trade data and depth ordebook data. So does the numerous powerful classifiers. In the Kaggle optiver volatility competition, the training data includes both trade and quote/orderbook, and it contains level-2 data. Many insightful feature engineering techniques and models can be discovered from the top solutions, which can also be applied in this framework.**
 
