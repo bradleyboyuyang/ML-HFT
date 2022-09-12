@@ -96,6 +96,7 @@ More advanced classifiers are definitely welcomed! Include but not limit to:
 - .....
 
 **Performance Metrics**
+
 The performance metrics are subject to amendment, including the PnL calculation, commission fee consideration, etc.
 
 ### Final Words
