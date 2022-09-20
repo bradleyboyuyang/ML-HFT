@@ -3,8 +3,8 @@
 In this project, we provide a framework/pipeline for high frequency trading using machine/deep learning techniques. More advanced feature engineering (with depth trade and quote data) and models (such as pre-trained models) can be applied in this framework.
 
 ### Target
-- Extract trading signals from multi-level orderbook data
-- Replicate well-designed high frequency trading (HFT) strategies using machine learning and deep learning techniques
+- Extract trading signals from level-II orderbook data
+- Predict orderbook dynamics using machine learning and deep learning techniques
 
 ### Data
 The SGX FTSE CHINA A50 INDEX Futures (新加坡交易所FTSE中国A50指数期货) tick depth data are used.
@@ -13,7 +13,7 @@ The SGX FTSE CHINA A50 INDEX Futures (新加坡交易所FTSE中国A50指数期�
 <img src="./Graph/pipline.png" width="650">
   
 ### Orderbook Signals
-We use level-3 deep orderbook data to develop trading signals, including **Depth Ratio**, **Rise Ratio**, and **Orderbook Imbalance (OBI)**.
+We use limit orderbook data to develop trading signals, including **Depth Ratio**, **Rise Ratio**, and **Orderbook Imbalance (OBI)**.
 
 <img src="./Graph/depth.png" width="650"> 
   
@@ -32,7 +32,7 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
 <img src="./images/rise_1300_1600_w.png" width="750">
  
  ### Model Fitting
-- Models:
+- Basic Models:
   *  RandomForestClassifier
   *  ExtraTreesClassifier
   *  AdaBoostClassifier
@@ -69,7 +69,7 @@ We use level-3 deep orderbook data to develop trading signals, including **Depth
 
 **Feature Engineering**
 
-There are tons of potential powerful signals if we have both the trade and quote data, such as:
+Other potentially useful signals:
 - volume imbalance signal
 - trade imbalance signal
 - technical indicators of bid and ask series (RSI, MACD...)
@@ -77,29 +77,25 @@ There are tons of potential powerful signals if we have both the trade and quote
 - volume imbalance signal
 - .....
 
-These signals can also generate derivative version using techniques such as:
+Signal generating techniques:
 - consider different weights on different level of orderbook data for a particular signal
 - consider moving average with period n (hyperparameter)
 - consider weighted average of signals, such as weighted average of trade imbalance and orderbook imbalance
+- Lasso regression, genetic programming
 - .....
  
 **Models**
 
-More advanced classifiers are definitely welcomed! Include but not limit to:
+This project only provides a baseline. More advanced models are welcomed:
 - CNN
 - GRU/LSTM
 - XGBoost, AdaBoost, GBDT, LightGBM
 - Attention, Auto-encoder
 - TabNet
-- GNN
 - Pre-trained models
 - .....
 
 **Performance Metrics**
 
 The performance metrics are subject to amendment, including the PnL calculation, commission fee consideration, etc.
-
-### Final Words
-
-**There are tons of excellent features to be explored with trade data and depth ordebook data. So does the numerous powerful classifiers. In the Kaggle optiver volatility competition, the training data includes both trade and quote/orderbook, and it contains level-2 data. Many insightful feature engineering techniques and models can be discovered from the top solutions, which can also be applied in this framework.**
 
