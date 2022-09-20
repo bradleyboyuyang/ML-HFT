@@ -73,8 +73,7 @@ Other potentially useful signals:
 - volume imbalance signal
 - trade imbalance signal
 - technical indicators of bid and ask series (RSI, MACD...)
-- WAP/WPR, weighted average price
-- volume imbalance signal
+- WAP/WPR, weighted average price, VWAP, TWAP
 - .....
 
 Signal generating techniques:
